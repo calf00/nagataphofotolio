@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>nagata koshi portfolio site</title>
+<meta name="description" content="2026.10.10 - 10.12 P・SPO GALLERY（愛媛県松山市）。俯瞰した風景の写真展。入場無料。">
+
+<!-- リセットCSS（ress） → 自分のCSS の順に読み込む -->
+<link rel="stylesheet" href="css/ress.css">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&family=Parisienne&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+
+<body>
+
+<!-- ===== ヘッダー ===== -->
+<header class="header">
+  <div class="header__inner container">
+    <p class="header__name">portfolio site</p>
+    <nav class="nav">
+      <a href="#works">WORKS</a>
+      <a href="#statement">gallery</a>
+      <a href="#profile">PROFILE</a>
+      <a href="#history">history</a>
+    </nav>
+  </div>
+</header>
+
+
+
+
+
+<main>
+  <!-- ===== メインビジュアル ===== -->
+  <section class="hero container">
+    <div class="hero__text">
+      <!-- <p class="hero__kicker">High-altitude areas in the Kanto region</p> -->
+      <h1 class="hero__title">Nagata Koshi</h1>
+
+    </div>
+    <div class="hero__visual">
+      <!-- 写真を差し替えるときは images/ の中に同じ名前で置いてください -->
+      <div class="frame frame--4x5">
+        <img src="images/hero.jpg" alt="夜の街を高い場所から見下ろした写真">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 展示ステートメント ===== -->
+  <section class="section statement container" id="statement">
+    <div>
+      <p class="label">pspo gallery 湊町</p>
+      <h2 class="statement__title">写真展 ・ 鳥瞰図</h2>
+    </div>
+    <div class="statement__body">
+      <p>この個展では、今年撮影した高いところからの風景を並べました。特別な場所を撮ったわけではありません。あなたが見てきた景色が、少しだけ違う景色として見えるきっかけとなればと思います。</p>
+    </div>
+  </section>
+
+  <!-- ===== 会期・会場 ===== -->
+  <section class="info container fade">
+    <div class="info__card">
+      <div class="info__block">
+        <p class="label">会期・会場</p>
+        <p class="info__date">2026.10.10<span> sat</span> — 10.12<span> mon</span></p>
+        <p class="info__place">
+          12:00 – 18:00 ／ 入場無料<br>
+          P・SPO GALLERY 愛媛県松山市湊町3-4-15 向井ビル
+        </p>
+      </div>
+      <div class="info__actions">
+        <a class="btn btn--cyan" href="https://maps.google.com/?q=愛媛県松山市湊町3-4-15" target="_blank" rel="noopener">アクセスを見る</a>
+        <!-- ↓ href をご自分のInstagramのURLに書き換えてください -->
+        <a class="btn" href="https://www.instagram.com/pspogallery.ehime/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 作品 ===== -->
+  <section class="section container" id="works">
+    <div class="works__head">
+      <p class="label">WORKS</p>
+      <p class="works__note">出品作より3点</p>
+    </div>
+
+    <figure class="work work--large fade">
+      <div class="frame frame--16x10">
+        <img src="images/work-01.jpg" alt="作品「交差線」">
+      </div>
+      <figcaption class="work__caption">
+        <span class="work__title">交差線</span>
+        <span class="work__meta">2026 東京都渋谷区</span>
+      </figcaption>
+    </figure>
+
+    <div class="works__grid">
+      <figure class="work fade">
+        <div class="frame frame--3x4">
+          <img src="images/work-02.jpg" alt="作品「確率密度の沈殿物」">
+        </div>
+        <figcaption class="work__caption">
+          <span class="work__title">確率密度の沈殿物</span>
+          <span class="work__meta">2026 京都</span>
+        </figcaption>
+      </figure>
+
+      <figure class="work work--offset fade">
+        <div class="frame frame--3x4">
+          <img src="images/work-03.jpg" alt="作品「怖い木」">
+        </div>
+        <figcaption class="work__caption">
+          <span class="work__title">怖い木</span>
+          <span class="work__meta">2026 東京都 神保町</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== 作家プロフィール ===== -->
+  <section class="section container" id="profile">
+    <p class="label">PROFILE</p>
+    <div class="profile__grid">
+      <div class="frame frame--4x5 profile__photo">
+        <img src="images/profile.jpg" alt="作家のポートレート">
+      </div>
+      <div class="profile__text">
+        <div class="profile__name">
+          <span class="profile__name-ja">永田 航士</span>
+          <span class="profile__name-en">NAGATA KOSHI</span>
+        </div>
+        <p class="profile__body">愛媛県生まれ。愛媛大学院卒。主に金属材料を6年学び、半導体製造装置メーカーに新卒で入社。退社後、写真の展覧してみて今に至る。</p>
+        <p class="profile__exhibitions">2026　写真展・鳥瞰図</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 経歴 ===== -->
+  <section class="section container" id="history">
+    <p class="label">history</p>
+    <dl class="history__list">
+      <div class="history__row">
+        <dt class="history__term">学生</dt>
+        <dd class="history__desc">球技をはじめとした様々なスポーツに取り組んだ。12年続けたボウリングは国体強化選手として活躍した。</dd>
+      </div>
+      <div class="history__row">
+        <dt class="history__term">大学</dt>
+        <dd class="history__desc">愛媛大学 理工学研究科(材料科)にて、主に金属材料についての研究に励んだ。実験系の研究室だったが、論文等情報を集めて整理することに貢献した。</dd>
+      </div>
+      <div class="history__row">
+        <dt class="history__term">新卒</dt>
+        <dd class="history__desc">株式会社 ディスコ 需要が強い産業を選び入社。技術開発をしようと入社するも、AIや社内システムに興味を持ち、興味ある業務を経験した。</dd>
+      </div>
+    </dl>
+  </section>
+
+</main>
+
+<!-- ===== フッター ===== -->
+<footer class="footer container">
+  <div class="footer__inner">
+    <p>&copy; <span id="year">2026</span> nagata koshi</p>
+    <div class="footer__links">
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      <a href="#">↑ TOP</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== 画面下に固定される来場バー ===== -->
+<div class="bar">
+  <div class="bar__inner container">
+    <div class="bar__text">
+      <p class="bar__date">2026.10.10 — 10.12</p>
+      <p class="bar__place">pspo gallery ／ 入場無料</p>
+    </div>
+    <a class="btn btn--orange" href="https://www.instagram.com/nagata_koshi/" target="_blank" rel="noopener">Instagramをフォロー</a>
+  </div>
+</div>
+
+<!-- JSは最後に読み込む（HTMLが揃ってから動かすため） -->
+<script src="js/main.js"></script>
+</body>
+</html>
