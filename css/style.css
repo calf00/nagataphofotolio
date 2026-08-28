@@ -243,7 +243,7 @@ img {
 
 .hero__title {
   font-size: clamp(32px, 10vw, 120px);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.18;
   letter-spacing: 0.01em;
   text-wrap: pretty;
