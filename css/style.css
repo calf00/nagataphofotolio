@@ -248,6 +248,7 @@ img {
   letter-spacing: 0.01em;
   text-wrap: pretty;
   font-family: "Parisienne", cursive;
+  transform: rotate(-5deg);
 }
 
 .hero__visual {
