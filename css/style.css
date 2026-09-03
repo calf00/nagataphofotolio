@@ -224,23 +224,6 @@ img {
   min-width: 0;               /* 文字がはみ出さないように */
 }
 
-/* .hero__kicker {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 11px;
-  letter-spacing: 0.18em;
-  color: var(--cyan-light);
-}
-
-.hero__kicker::before {
-  content: "";
-  width: 26px;
-  height: 1px;
-  background-color: var(--cyan);
-  flex: none;
-} */
-
 .hero__title {
   font-size: clamp(32px, 10vw, 120px);
   font-weight: 600;
@@ -274,13 +257,13 @@ img {
 /* ---------------------------------------------------------
    4-3. ステートメント
    --------------------------------------------------------- */
-.statement {
+.gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: clamp(20px, 4vw, 56px);
 }
 
-.statement__title {
+.gallery__title {
   margin-top: 16px;
   padding-left: clamp(12px, 2.4vw, 18px);
   border-left: 2px solid var(--cyan);
@@ -290,7 +273,7 @@ img {
   text-wrap: pretty;
 }
 
-.statement__body {
+.gallery__body {
   display: flex;
   flex-direction: column;
   gap: 1.1em;
@@ -301,7 +284,7 @@ img {
   color: var(--text-70);
 }
 
-.statement__body p {
+.gallery__body p {
   text-wrap: pretty;
 }
 
@@ -357,9 +340,11 @@ img {
 }
 
 
-/* ---------------------------------------------------------
-   4-5. 作品（WORKS）
-   --------------------------------------------------------- */
+
+/* 4-5. 作品（WORKS） */
+
+
+
 .works__head {
   display: flex;
   align-items: baseline;
@@ -481,9 +466,11 @@ img {
 }
 
 
-/* ---------------------------------------------------------
-   4-7. 経歴（history）
-   --------------------------------------------------------- */
+
+   /* 4-7. 経歴（history） */
+
+
+
 .history__list {
   margin-top: clamp(16px, 3vw, 26px);
 }
@@ -511,9 +498,10 @@ img {
 }
 
 
-/* ---------------------------------------------------------
-   4-8. フッター
-   --------------------------------------------------------- */
+
+   /* 4-8. フッター */
+
+
 .footer {
   margin-top: var(--section-gap);
   padding-top: clamp(24px, 4vw, 36px);
@@ -628,7 +616,7 @@ img {
   }
 
   /* ステートメントは左に見出し、右に本文（1:1.4） */
-  .statement {
+  .gallery {
     grid-template-columns: 1fr 1.4fr;
   }
 
